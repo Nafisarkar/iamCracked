@@ -23,21 +23,13 @@
 
 ### Dependencies
 
-To install the required dependencies, create a `requirements.txt` file and add the following:
-
-```
-pycryptodome
-```
-
-Save this file in the same directory as your script.
-
 To install the dependencies, open a terminal, navigate to the directory containing the `requirements.txt` file, and run:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-This will install the `pycryptodome` library, which is required for password decryption functionality.
+This will install all the dependencies , which is required for all the functionality.
 
 > Make sure to run this command in an environment where Python and pip are installed. If you're using a virtual environment, activate it before running the command.
 
@@ -48,6 +40,16 @@ After the dependencies are installed, you can run the software using:
 ```bash
 python iamCracked.py
 ```
+
+## TODO
+
+Here are some tasks that need to be addressed in future development:
+
+1. Add discord hooks for data retrival.
+2. Add chrome grabber functionality.
+3. Add device information gathering module.
+4. Add screenshare module.
+
 
 ## Contributing
 
