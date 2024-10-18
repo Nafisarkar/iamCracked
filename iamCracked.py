@@ -1,25 +1,25 @@
-import os
-import importlib.util
-
 def main():
-    # Specify the directory where your module scripts are located
-    module_directory = "modules"
+    """
+    This function will execute every code inside the modules folder.
+    The modules folder contains some python scripts with py extension.
+    The main function is just execute all the python scripts available on the modules folder one by one.
+    """
+    import glob
+    import os
+    import subprocess
 
-    # Get a list of all Python files in the module directory
-    module_files = [f for f in os.listdir(module_directory) if f.endswith(".py")]
+    # Get all the python scripts in the modules folder
+    files = glob.glob(os.path.join('iamCracked/modules', '*.py'))
+    
+    # Print all the files that found in the folder
+    print("Files that found in the folder:")
+    for file in files:
+        print(file)
 
-    # Iterate over each module file and execute it
-    for module_file in module_files:
-        module_path = os.path.join(module_directory, module_file)
-        
-        # Load the module dynamically using its file path
-        spec = importlib.util.spec_from_file_location(module_file, module_path)
-        module = importlib.util.module_from_spec(spec)
-        spec.loader.exec_module(module)
-        
-        # Call the main function of the module (assuming it has one)
-        if hasattr(module, "main"):
-            module.main()
+    # Execute all the python scripts one by one
+    for file in files:
+        subprocess.call(['python', file])
 
-if __name__ == "__main__":
+
+if __name__ == '__main__':
     main()
