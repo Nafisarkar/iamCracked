@@ -1,50 +1,70 @@
-iamcracked Software
 
-This software is a collection of hacking modules that can be dynamically loaded and executed based on the modules included in the modules directory.
-Features
+# iamCracked Software
 
-    Dynamically loads and executes hacking modules from the modules directory.
-    Each module file should be a Python script with a main function that contains the hacking functionality.
-    The main function of each module is executed when the module is loaded.
+**iamCracked** is a collection of hacking modules that can be dynamically loaded and executed based on the modules included in the `modules` directory.
 
-Requirements
+## Features
 
-    Python 3.x
-    The required Python modules should be installed in the modules directory.
+- Dynamically loads and executes hacking modules from the `modules` directory.
+- Each module file should be a Python script with a `main` function that contains the hacking functionality.
+- The `main` function of each module is executed when the module is loaded.
 
-Usage
+## Requirements
 
-    Place your hacking module scripts in the modules directory.
-    Ensure that each module script has a main function that contains the hacking functionality.
-    Run the main.py script to execute the software.
+- **Python 3.x**
+- Required Python modules should be installed in the `modules` directory.
 
-Contributing
+## Installation
 
-If you would like to contribute to this project, feel free to fork the repository, make changes, and submit a pull request.
+1. Place your hacking module scripts in the `modules` directory.
+2. Ensure that each module script has a `main` function that contains the hacking functionality.
+3. Run the `main.py` script to execute the software.
 
-Here's a sample requirements.txt file that you can use to install the required dependencies:
+### Dependencies
 
+To install the required dependencies, create a `requirements.txt` file and add the following:
+
+```
 pycryptodome
+```
 
-Save this file as requirements.txt in the same directory as your script.
+Save this file in the same directory as your script.
 
-To install the dependencies, open a command prompt or terminal, navigate to the directory containing the script and requirements file, and run the following command:
+To install the dependencies, open a terminal, navigate to the directory containing the `requirements.txt` file, and run:
 
+```bash
 pip install -r requirements.txt
+```
 
-This command will install the pycryptodome library, which is required for the password decryption functionality.
+This will install the `pycryptodome` library, which is required for password decryption functionality.
 
-Remember to run this command in an environment where Python and pip are installed. If you're using a virtual environment, make sure to activate it before running the command.
+> Make sure to run this command in an environment where Python and pip are installed. If you're using a virtual environment, activate it before running the command.
 
-After the installation is complete, you can run your script using the command python iamCracked.py.
+## Usage
 
+After the dependencies are installed, you can run the software using:
 
-License
+```bash
+python iamCracked.py
+```
 
-This software is licensed under the MIT License.
-Contact
+## Contributing
 
-If you have any questions or issues, please contact the software developer at [email protected] or visit the project's GitHub page.
-Acknowledgements
+If you'd like to contribute to this project:
 
-This software was created with the intention of educational and ethical hacking purposes. The developers do not condone any unauthorized or unethical hacking activities.
+1. Fork the repository.
+2. Make your changes.
+3. Submit a pull request.
+
+## License
+
+This software is licensed under the MIT License. See the `LICENSE` file for more details.
+
+## Contact
+
+If you have any questions or issues, feel free to contact the software developer at:
+- Discord: [_sakuno]
+
+## Acknowledgements
+
+This software was created for **educational and ethical hacking purposes**. The developers do not condone any unauthorized or unethical hacking activities.
