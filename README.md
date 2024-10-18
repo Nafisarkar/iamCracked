@@ -1,4 +1,4 @@
-![iamCracked Banner](iamCracked/Img/LogoBanner.png)
+![iamCracked Banner](Img/LogoBanner.png)
 
 # iamCracked Software
 
