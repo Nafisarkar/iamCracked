@@ -65,6 +65,14 @@ This software is licensed under the MIT License. See the `LICENSE` file for more
 If you have any questions or issues, feel free to contact the software developer at:
 - Discord: [_sakuno]
 
+
 ## Acknowledgements
 
 This software was created for **educational and ethical hacking purposes**. The developers do not condone any unauthorized or unethical hacking activities.
+
+Special thanks to the following repositories that contributed to this project:
+
+- [firefox_decrypt](https://github.com/unode/firefox_decrypt): Code from this repository was adapted to work with our system, enhancing the Firefox password decryption functionality.
+
+We appreciate the open-source community and the valuable resources they provide, which have been instrumental in the development of this educational tool.
+
